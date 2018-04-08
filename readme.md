@@ -11,7 +11,7 @@ Alternatively you can pass an input file and output filename to write the files 
 `CStructToCSharp.exe <infile> <outfile>`
 
 Or you can specify a directory and process an entire directory at once.
-`CstructToCSharp.exe /dir <dirpath>
+`CstructToCSharp.exe /dir <dirpath>`
  
 ### Namespaces
 Currently there is no way to specify the namespace from the arguments, instead in `Program.cs` change `converter.Convert("DiscUtils.Hfs.Types");` to the appropriate namespace for your usage.
